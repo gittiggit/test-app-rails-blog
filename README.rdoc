@@ -2,5 +2,6 @@
 02. rails g controller users new
 03. rails generate model User name:string email:string
 04. rails generate migration add_index_to_users_email
-05.
+05. rails generate migration add_password_digest_to_users password_digest:string
+06.
 
